@@ -5,6 +5,7 @@ import React from "react";
 
 const Sidebar = () => {
   const router = useRouter();
+  // const pathname = usePathname();
 
   const links = [
     { name: "Home", path: "/" },

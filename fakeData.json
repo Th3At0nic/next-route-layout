@@ -1,57 +1,59 @@
-[
-  {
-    "id": "1",
-    "name": "Wireless Headphones",
-    "description": "Noise-cancelling over-ear headphones with 40 hours battery life.",
-    "price": 99.99,
-    "category": "Electronics",
-    "image": "https://via.placeholder.com/200x200?text=Headphones",
-    "stock": 25,
-    "rating": 4.5,
-    "brand": "SoundMax"
-  },
-  {
-    "id": "2",
-    "name": "Smartwatch Pro",
-    "description": "Water-resistant smartwatch with health tracking and GPS.",
-    "price": 149.5,
-    "category": "Wearables",
-    "image": "https://via.placeholder.com/200x200?text=Smartwatch",
-    "stock": 10,
-    "rating": 4.2,
-    "brand": "TechTime"
-  },
-  {
-    "id": "3",
-    "name": "Running Shoes",
-    "description": "Lightweight and breathable shoes designed for daily runners.",
-    "price": 59.95,
-    "category": "Footwear",
-    "image": "https://via.placeholder.com/200x200?text=Shoes",
-    "stock": 50,
-    "rating": 4.8,
-    "brand": "RunFast"
-  },
-  {
-    "id": "4",
-    "name": "Gaming Keyboard",
-    "description": "Mechanical RGB keyboard with anti-ghosting and macro keys.",
-    "price": 74.99,
-    "category": "Accessories",
-    "image": "https://via.placeholder.com/200x200?text=Keyboard",
-    "stock": 40,
-    "rating": 4.3,
-    "brand": "KeyMaster"
-  },
-  {
-    "id": "5",
-    "name": "4K LED Monitor",
-    "description": "27-inch ultra-clear display perfect for work and gaming.",
-    "price": 229.99,
-    "category": "Electronics",
-    "image": "https://via.placeholder.com/200x200?text=Monitor",
-    "stock": 12,
-    "rating": 4.6,
-    "brand": "ViewPro"
-  }
-]
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "description": "Noise-cancelling over-ear headphones with 40 hours battery life.",
+      "price": 99.99,
+      "category": "Electronics",
+      "image": "https://img.freepik.com/free-photo/headphones-displayed-against-dark-background_157027-4466.jpg?ga=GA1.1.718440294.1750567385&semt=ais_hybrid&w=740",
+      "stock": 25,
+      "rating": 4.5,
+      "brand": "SoundMax"
+    },
+    {
+      "id": "2",
+      "name": "Smartwatch Pro",
+      "description": "Water-resistant smartwatch with health tracking and GPS.",
+      "price": 149.5,
+      "category": "Wearables",
+      "image": "https://img.freepik.com/free-vector/smartwatch-applications-tasks-concept-llustration_1284-17017.jpg?ga=GA1.1.718440294.1750567385&semt=ais_hybrid&w=740",
+      "stock": 10,
+      "rating": 4.2,
+      "brand": "TechTime"
+    },
+    {
+      "id": "3",
+      "name": "Running Shoes",
+      "description": "Lightweight and breathable shoes designed for daily runners.",
+      "price": 59.95,
+      "category": "Footwear",
+      "image": "https://img.freepik.com/premium-photo/pair-blue-running-shoes-isolated-white-background_960079-251.jpg?ga=GA1.1.718440294.1750567385&semt=ais_hybrid&w=740",
+      "stock": 50,
+      "rating": 4.8,
+      "brand": "RunFast"
+    },
+    {
+      "id": "4",
+      "name": "Gaming Keyboard",
+      "description": "Mechanical RGB keyboard with anti-ghosting and macro keys.",
+      "price": 74.99,
+      "category": "Accessories",
+      "image": "https://img.freepik.com/premium-psd/3d-render-gaming-keyboard-gamer-with-transparent-background_744641-1135.jpg?ga=GA1.1.718440294.1750567385&semt=ais_hybrid&w=740",
+      "stock": 40,
+      "rating": 4.3,
+      "brand": "KeyMaster"
+    },
+    {
+      "id": "5",
+      "name": "4K LED Monitor",
+      "description": "27-inch ultra-clear display perfect for work and gaming.",
+      "price": 229.99,
+      "category": "Electronics",
+      "image": "https://img.freepik.com/free-photo/view-computer-video-display-monitor_23-2150757349.jpg?ga=GA1.1.718440294.1750567385&semt=ais_hybrid&w=740",
+      "stock": 12,
+      "rating": 4.6,
+      "brand": "ViewPro"
+    }
+  ]
+}

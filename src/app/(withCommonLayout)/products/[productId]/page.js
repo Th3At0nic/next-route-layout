@@ -1,9 +1,7 @@
-import React from "react";
-
 const DynamicProductPage = async ({ params, searchParams }) => {
   const { productId } = await params;
   console.log("product id: ", productId);
-  console.log("search params: ",await searchParams);
+  console.log("search params: ", await searchParams);
 
   return (
     <div>

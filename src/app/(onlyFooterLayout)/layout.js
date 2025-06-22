@@ -1,5 +1,4 @@
 import Footer from "@/components/shared/Footer";
-import React from "react";
 
 const FooterLayout = ({ children }) => {
   return (
