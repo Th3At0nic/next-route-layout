@@ -1,7 +1,9 @@
 import ProductCard from "@/components/ProductCard";
 
 const HomePage = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("http://localhost:5000/products", {
+    cache: "force-cache",
+  });
 
   const products = await res.json();
 
@@ -9,9 +11,9 @@ const HomePage = async () => {
 
   return (
     <div>
-      <h1 className="text-4xl p-5 m-5">Hello World</h1>
-      <h1 className="text-4xl p-5 m-5">
-        Data Fetching, Caching and revalidating
+      <h1 className="text-4xl p-5 m-5 text-center">Hello World</h1>
+      <h1 className="text-4xl p-5 m-5 text-center">
+        Data Fetching, Caching and revalidatingggg
       </h1>
       <div className="flex gap-5 justify-center">
         {products.map((product) => (
