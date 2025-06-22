@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 const ProductCard = ({ product }) => {
   console.log("product: ", product);
   return (
     <div className="bg-white shadow-md rounded-xl p-4 w-full max-w-xs hover:shadow-lg transition">
-      <img
+      <Image
         src={product.image}
         alt={product.name}
         className="w-full h-48 object-cover rounded-lg mb-4"
