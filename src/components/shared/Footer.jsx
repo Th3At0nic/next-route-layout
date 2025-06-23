@@ -1,5 +1,4 @@
-// components/Footer.tsx
-import React from "react";
+"use client";
 
 const Footer = () => {
   return (

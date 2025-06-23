@@ -1,5 +1,6 @@
 import PostCard from "@/components/PostCard";
 import ProductCard from "@/components/ProductCard";
+import SectionTitleAndButton from "@/components/shared/SectionTitleAndButton";
 
 const HomePage = async () => {
   const prodRes = await fetch("http://localhost:5000/products", {
@@ -26,9 +27,14 @@ const HomePage = async () => {
           <ProductCard product={product} key={product.id} />
         ))}
       </div>
-      <h1>Posts</h1>
+      <SectionTitleAndButton
+        title={"Posts"}
+        buttonName={"See All"}
+        path={"/posts"}
+      />
+
       <div className="grid grid-cols-4 gap-5 mx-15 my-10">
-        {posts.slice(0,4).map((post) => (
+        {posts.slice(0, 4).map((post) => (
           <PostCard key={post.id} post={post} />
         ))}
       </div>
