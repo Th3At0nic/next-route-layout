@@ -5,13 +5,15 @@ import SectionTitleAndButton from "@/components/shared/SectionTitleAndButton";
 const HomePage = async () => {
   const prodRes = await fetch("http://localhost:5000/products", {
     next: {
-      revalidate: 5, //this is used to revalidate/update the changes of database data automatically
+      revalidate: 20, //this is used to revalidate/update the changes of database data automatically
     },
   });
 
   const products = await prodRes.json();
 
-  const postRes = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const postRes = await fetch("https://jsonplaceholder.typicode.com/posts", {
+    cache: "force-cache",
+  });
 
   const posts = await postRes.json();
 
