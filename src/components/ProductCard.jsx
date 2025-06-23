@@ -7,6 +7,8 @@ const ProductCard = ({ product }) => {
       <Image
         src={product.image}
         alt={product.name}
+        height={500}
+        width={500}
         className="w-full h-48 object-cover rounded-lg mb-4"
       />
       <div className="space-y-1">
