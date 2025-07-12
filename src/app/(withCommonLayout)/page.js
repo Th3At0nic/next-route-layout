@@ -5,7 +5,7 @@ import SectionTitleAndButton from "@/components/shared/SectionTitleAndButton";
 const HomePage = async () => {
   const prodRes = await fetch("http://localhost:5000/products", {
     next: {
-      revalidate: 20, //this is used to revalidate/update the changes of database data automatically..
+      revalidate: 20, //this is used to revalidate/update the changes of database data automatically
     },
   });
 
